@@ -1,0 +1,147 @@
+/*
+Theme Name: Cours CESI
+Theme URI: 
+Description: 
+Version: 1.0
+Author: Pierre JOLLET // Waxmyweb
+Author URI: http://www.waxmyweb.fr
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0; padding:0;}
+table {border-collapse:collapse; border-spacing:0;}
+fieldset,img{ border:0;}
+address,caption,cite,code,dfn,var {font-style:normal; font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th{ text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;}
+
+body,button,input,select,textarea {color:#333; font-family:Arial,Verdana,sans-serif; font-size:12px; line-height:16px;}
+
+/* Balises block */
+.post-content h1{ }
+.post-content h2{ }
+.post-content h3{ }
+.post-content h4{ }
+.post-content h5{ }
+.post-content h6{ }
+.post-content p{ }
+.post-content ul{ }
+.post-content ol{ }
+.post-content blockquote{ }
+.post-content pre{ }
+.post-content address{ }
+.post-content address{ }
+
+/* Balises inline */
+.post-content strong{ }
+.post-content em{ }
+.post-content acronym{ }
+.post-content code{ }
+.post-content del{ }
+.post-content ins{ }
+
+/* Classes des images */
+.alignleft {display:inline; float:left;}
+.aligncenter {clear:both; display:block; margin-left:auto; margin-right:auto;}
+.alignright {display:inline; float:right;}
+.size-auto { }
+.size-medium { }
+.size-large { }
+.size-full { }
+.wp-caption { }
+.wp-caption img { }
+.gallery { }
+.gallery .gallery-item { }
+
+
+
+header, section, footer {width:100%; float:left;}
+
+
+/** Styles **/
+
+.wrap {width:960px; margin:auto;}
+
+
+/* HEADER */
+header {background-color:#fff;}
+h1 {margin-bottom:20px; font-size:30px;}
+
+
+.header-menu {margin-top:40px; height:55px; background: url('./images/header/bck-menu.png') repeat-y center transparent;}
+.header-menu .menu {float:left;}
+.header-menu .menu li {height:55px; float:left; position:relative;}
+.header-menu .menu li a {width:100%; height: 55px; cursor:pointer; display:inline-block; text-indent:-9999px;
+    position:absolute; top:0px; left:0px; background-position: center top; background-repeat: no-repeat; z-index: 2005;}
+.header-menu .menu li a:hover {background-position: center -55px;}
+.header-menu .menu li.agefa {width:126px;}
+.header-menu .menu li.agefa a {background-image:url('./images/header/li-item-agefa-3.png');}
+.header-menu .menu li.jeunes{width: 106px;}
+.header-menu .menu li.jeunes a {background-image: url('./images/header/li-item-jeunes-3.png');}
+.header-menu .menu li.communautes {width: 174px;}
+.header-menu .menu li.communautes a {background-image: url('./images/header/li-item-communautes-3.png');}
+.header-menu .menu li.entreprises {width: 219px;}
+.header-menu .menu li.entreprises a {background-image: url('./images/header/li-item-entreprises-3.png');}
+.header-menu .menu li.acteurs {width:147px;}
+.header-menu .menu li.acteurs a {background-image: url('./images/header/li-item-acteurs-3.png');}
+
+
+/* ACCUEIL */
+#buttons {color:white; margin-top:40px; width:100%; float:left;}
+#buttons .buttons-item {width:220px; min-height:180px; background-color:#000; float:left; margin-right:20px; padding:20px;}
+#buttons .buttons-item:last-child {margin-right:0px;}
+#buttons .buttons-item h3 {font-size: 20px; margin-bottom:10px;}
+#buttons .buttons-item li {line-height:25px;}
+#buttons .buttons-item a {color:white;}
+
+#buttons .communautes {background-color:#000;}
+#buttons .entreprises {background-color:#07a992;}
+#buttons .acteurs {background-color:#f8a70f;}
+
+
+#center {margin-top:40px; width:100%; float:left;}
+#center h3 {font-size:20px; margin-bottom:20px;}
+#center .actualites {width:600px; float:left;}
+#center .actualites li {width:100%; float:left; margin-bottom:15px;}
+#center .actualites li img {float:left;}
+#center .actualites li div {float: left; margin-left: 20px; width: 280px;}
+#center .actualites li div h4 {font-size: 16px; font-weight: bold; margin-bottom: 20px;}
+
+#center .aside {width:300px; margin-left:60px; float: left;}
+#center .aside li {width:100%; float:left; margin-bottom:15px;}
+#center .aside li h4 {font-size:14px; font-weight:bold; margin-bottom:10px;}
+
+#icones {margin-top:40px; width:100%; float:left;}
+#icones .item {color: #3e3e3e; float:left; margin-right:20px; padding:10px; width: 175px;}
+#icones .item:last-child {margin-right: 0px;}
+
+
+/* ARTICLES */
+.archive {width:100%;}
+.p_category {float:left; height:300px; width:29%; margin:20px;}
+.p_category a {width:100%;}
+.img_article {margin-right:20px; float:left;}
+.post-title {font-size:20px;}
+.post-excerpt, .nothing {padding:5px 0 15px 0; margin:5px 0 15px 0;}
+
+
+/* TEMPLATE PAGE */
+.violette {background-color:#9386be; padding-bottom:30px; height:100%;}
+.post-info.jeunes img {float:left; margin:0 20px 20px 0;}
+.post-content.jeunes p {margin:10px 0;}
+.post-content.jeunes img {height:130px; width:130px; margin:20px;}
+
+
+.blue {background-color:#00adc9; padding-bottom:30px;}
+.blue img {height:200px; width:100%; margin:10px 0;}
+.blue p.secondaire {margin-top:20px;}
+.blue p.paraf {float:left; width:25%; padding:10px;}
+
+
+/* FOOTER */
+footer {background-color:#e8e4fd;}
+.menu-footer ul {float:left; margin:20px;}
+.menu-credit ul {clear:both; text-align:center;}
+.menu-credit li {float:left; padding:10px;}
